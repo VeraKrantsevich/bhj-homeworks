@@ -6,5 +6,5 @@ allTab.forEach((el, i) => {
       allTab.forEach(el => el.classList.toggle("tab_active"));
       allTabContent.forEach(text => text.style.display = "none");
       allTabContent[i].style.display = "block";
-    });
+    }); 
   });
